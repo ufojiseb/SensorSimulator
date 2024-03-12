@@ -1,0 +1,30 @@
+{
+	"simulation": {
+		"name": "MySimulation",
+		"time": 1000
+	},
+	"waves": [
+		{
+			"min": 100,
+			"max": 800,
+			"frequency": 0.0015,
+			"phase": 0.785,
+			"function": "sin"
+		},
+		{
+			"min": 0,
+			"max": 200,
+			"frequency": 0.01,
+			"phase": 0.0,
+			"function": "cos"
+		}
+	],
+	"signal": {
+		"error": 50
+	},
+	"sensor": {
+		"floor": 100,
+		"roof": 950,
+		"precision": 1
+	}
+}
